@@ -13,19 +13,19 @@ function App() {
         developers think is invaluable.</p>
       </div>
       <div className="Right_Column">
-        <div className="try-message">
-          <p>Try it free 7 days the $20/mo. thereafter</p>
+        <div className="Try_Message">
+          <p><b>Try it free 7 days</b> then $20/mo. thereafter</p>
         </div>
 
-        <div className="form-box">
-          <form className="form-group">
+        <div className="Form_Box">
+          <form className="Form_Group">
             <input type="text" name="firstName" id="firstName" placeholder="First Name" />
             <input type="text" name="lastName" id="lastName" placeholder="Last Name" />
             <input type="email" name="email" id="email" placeholder="Email Address" />
             <input type="password" name="password" id="password" placeholder="Password" />
 
             <button type="submit">claim your free trial</button>
-            <p>By clicking the button you are agreeing to out <a href="#">Terms and Services</a></p>
+            <p>By clicking the button you are agreeing to out <a href="#"><b>Terms and Services</b></a></p>
           </form>
         </div>
       </div>
